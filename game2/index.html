@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بازی آموزشی ضرب</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>بازی آموزشی ضرب</h1>
+   <div id="question"></div>
+<div class="options">
+  <button class="option" onclick="checkAnswer(this)">گزینه 1</button>
+  <button class="option" onclick="checkAnswer(this)">گزینه 2</button>
+  <button class="option" onclick="checkAnswer(this)">گزینه 3</button>
+  <button class="option" onclick="checkAnswer(this)">گزینه 4</button>
+</div>
+
+	
+    <div id="feedback"></div>
+    <div id="score">امتیاز: 0</div>
+      <button id="nextGameButton" onclick="goToNextPage()" style="display: none;background: #f99494;width: 100%;height: 50px;border-radius: 10px;font-size: 20px;font-weight: bold;;">بازی جدید</button>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

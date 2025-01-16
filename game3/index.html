@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی ریاضی</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home">
+        <h1>بازی ریاضی</h1>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="#quiz">آزمون‌ها</a></li>
+                <li><a href="#duel">دوئل</a></li>
+                <li><a href="#report">گزارش‌ها</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="quiz" class="page">
+        <h2>آزمون‌ها</h2>
+        <button onclick="startQuiz()">شروع آزمون</button>
+    </div>
+
+    <div id="duel" class="page">
+        <h2>بازی دوئل</h2>
+        <button onclick="startDuel()">شروع دوئل</button>
+    </div>
+
+    <div id="report" class="page">
+        <h2>گزارش‌ها</h2>
+        <div id="reportDetails"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
